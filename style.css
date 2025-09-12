@@ -208,6 +208,11 @@ section {
     gap: 20px;
 }
 
+    .clickable-grid:visited {
+        color: black;
+        text-decoration: none;
+    }
+
 .category-card {
     background: #111;
     border-radius: 5px;
@@ -215,6 +220,7 @@ section {
     box-shadow: 0 5px 15px rgba(255, 255, 255, 0.05);
     transition: transform 0.3s;
     border: 1px solid #333;
+    height: 375px;
 }
 
     .category-card:hover {
