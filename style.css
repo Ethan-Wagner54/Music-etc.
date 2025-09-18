@@ -326,15 +326,16 @@ form {
 
 .studio-features {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 40px;
     margin: 40px 0;
 }
 
 .feature {
     flex: 0 0 30%;
     min-width: 250px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     background: #111;
     padding: 20px;
     border-radius: 5px;
